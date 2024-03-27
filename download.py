@@ -4,7 +4,7 @@ import sys
 from os import path
 import subprocess
 import validators
-from DownloadMethods import Download
+from download_methods import Download
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import (QApplication, QVBoxLayout, QWidget, QPushButton, QGridLayout, QSpacerItem, QSizePolicy, QLabel, QDialog, QFrame, QToolButton, QHBoxLayout, QStyle,  QMainWindow, QFileDialog, QLineEdit )
 from PyQt5.QtCore import Qt, QCoreApplication, QObject, QRunnable, QTimer, QSize
